@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        div {
+            margin: 20px;
+            display: inline-flex;
+            flex-direction: row;
+            background-color: gainsboro;
+            border-radius: 40px;
+        }
+        .left {
+            justify-content: flex-end;
+        }
+        .right {
+            justify-content: flex-start;
+        }
+        input {
+            border-radius: 20px;
+            color: gainsboro;
+            font-style: italic;
+            background-color: whitesmoke;
+        }
+        .logo {
+            border-radius: 40px;
+            color: blueviolet;
+            font-style: italic;
+            background-color: darkturquoise;
+            float: left;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="logo right">W</div>
+    <div class="right">Nowels</div>
+    <div class="right">Comics</div>
+    <div class="right">Create</div>
+    <div class="right">
+        <form>
+            <input type="text", placeholder="Search">
+        </form>
+    </div>
+    <div class="left">Forum</div>
+    <div class="left">My library</div>
+    <div class="left">Inbox</div>
+    <div class="left">Login</div>
+</body>
+</html>
